@@ -4,6 +4,7 @@ body {
   color: #333;
 }
 
+
 .hero-unit {
   margin: 50px auto 0 auto;
   width: 300px;
@@ -911,6 +912,13 @@ pre code {
   content: "";
 }
 
+.containerb {
+    width: 780px;
+    background: "http://i.vimeocdn.com/video/541559349_1280x720.jpg"no-repeat center top #000;
+    margin: 0 auto;
+    height: 100%;
+}
+
 @media (min-width: 544px) {
   .container {
     max-width: 576px;
@@ -1208,6 +1216,13 @@ pre code {
   .col-sm-10 {
     width: 83.333333%;
   }
+
+  .col-sm-10b {
+    width: 83.333333%;
+    margin: auto;
+    position: relative;
+  }
+
   .col-sm-11 {
     width: 91.666667%;
   }
@@ -1332,6 +1347,7 @@ pre code {
     margin-left: 100%;
   }
 }
+
 
 @media (min-width: 768px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
