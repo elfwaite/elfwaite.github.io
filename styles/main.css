@@ -107,6 +107,8 @@ body {
   background: url('https://i.imgsafe.org/f0cfb34.png') top left no-repeat;
 padding-left: 55px;
 font-size: 18px;
+height: auto;
+   max-width: auto;
 line-height: 80%;
 color:#FFFFFF;
 }
@@ -115,6 +117,8 @@ color:#FFFFFF;
   background: url('https://i.imgsafe.org/f0cfb34.png') bottom right no-repeat;
 padding-left: 55px;
 font-size: 18px;
+height: auto;
+   max-width: 100%;
 line-height: 80%;
 color:#FFFFFF;
 }
@@ -142,7 +146,8 @@ color:#FFFFFF;
 }
 
 div.transbox {
-    margin: 80px;
+    margin-left: 160px;
+    margin-right: 160px;
     background-color: #ffffff;
     opacity: 0.8;
     border-radius: 15px;
